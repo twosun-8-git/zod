@@ -1,14 +1,17 @@
 # react-hook-form
 
-このリポジトリは**react-hook-form**の基本的な使い方を記載したリポジトリです。
+このリポジトリは Zenn の記事 **「Zod と HTML だけでバリデーションをやってみた。react-hook-form 未使用」** と連動したリポジトリです。
+
+## 📄 記事へのリンクはこちら
+
+[Zod と HTML だけでバリデーションをやってみた。react-hook-form 未使用](https://zenn.dev/cocomina/articles/how-to-use-react-hook-form)
 
 ## 🛠️ 開発環境
 
 - Node.js（18.20.4）
 - React（^18）
 - Next（14.2.5）
-- react-hook-form（^7.52.1）
-- MUI（5.16.6）
+- Zod（3.23.8）
 
 ## 📁 ディレクトリ構成
 
