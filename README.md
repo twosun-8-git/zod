@@ -4,7 +4,7 @@
 
 ## 📄 記事へのリンクはこちら
 
-[Zod と HTML だけでバリデーションをやってみた。react-hook-form 未使用](https://zenn.dev/cocomina/articles/how-to-use-react-hook-form)
+[Zod と HTML だけでバリデーションをやってみた。react-hook-form 未使用](https://zenn.dev/cocomina/articles/how-to-use-zod)
 
 ## 🛠️ 開発環境
 
