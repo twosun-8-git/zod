@@ -216,7 +216,7 @@ export default function Home() {
                 name="spouse"
                 type="radio"
                 value="1"
-                defaultChecked // defaultCheckedだけでは値は渡らない
+                defaultChecked // 初期表示で選択状態にする。値は渡せない。
                 onChange={handleChange}
               />
               あり
@@ -252,7 +252,7 @@ export default function Home() {
               <input
                 id="agree"
                 type="checkbox"
-                defaultChecked // defaultCheckedだけでは値は渡らない
+                defaultChecked // 初期表示でチェックありの状態にする。値は渡せない。
                 onChange={handleChange}
               />
               <span>利用規約に同意する</span>
