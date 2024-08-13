@@ -158,7 +158,7 @@ export default function Home() {
         <div className="form-group">
           <label htmlFor="email">メールアドレス</label>
           <div>
-            <input id="email" type="text" onChange={handleChange} />
+            <input id="email" type="email" onChange={handleChange} />
             {errors.email && (
               <span className="error-message">{errors.email[0]}</span>
             )}
@@ -168,7 +168,7 @@ export default function Home() {
         <div className="form-group">
           <label htmlFor="confirmEmail">メールアドレス（確認用）</label>
           <div>
-            <input id="confirmEmail" type="text" onChange={handleChange} />
+            <input id="confirmEmail" type="email" onChange={handleChange} />
             {errors.confirmEmail && (
               <span className="error-message">{errors.confirmEmail[0]}</span>
             )}

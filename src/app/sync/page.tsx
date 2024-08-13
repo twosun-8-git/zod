@@ -177,22 +177,21 @@ export default function Home() {
         <div className="form-group">
           <label htmlFor="email">メールアドレス</label>
           <div>
-            <input id="email" type="text" onChange={handleChange} />
+            <input id="email" type="email" onChange={handleChange} />
             {errors?.emails?.email?._errors && (
               <span className="error-message">
                 {errors.emails.email._errors[0]}
               </span>
-            )}{" "}
+            )}
           </div>
         </div>
 
         <div className="form-group">
           <label htmlFor="confirmEmail">メールアドレス（確認用）</label>
           <div>
-            <input id="confirmEmail" type="text" onChange={handleChange} />
+            <input id="confirmEmail" type="email" onChange={handleChange} />
             {errors?.emails?.confirmEmail?._errors && (
               <span className="error-message">
-                {" "}
                 {errors.emails.confirmEmail._errors[0]}
               </span>
             )}
