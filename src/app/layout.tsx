@@ -3,7 +3,7 @@ import "./style.css";
 
 export const metadata: Metadata = {
   title: "My Zod",
-  description: "zodを使ったフォームバリデーション",
+  description: "Zodを使ったフォームバリデーション",
 };
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
     <html lang="ja">
       <body>
         <div className="wrapper">
-          <h2 className="title">my zod</h2>
+          <h1 className="title">my zod</h1>
           {children}
         </div>
       </body>
