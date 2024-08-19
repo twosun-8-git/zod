@@ -17,8 +17,8 @@ const FormSchema = z
       })
       .min(1, { message: "1以上を入力してください" })
       .int({ message: "年齢は正数で入力してください" }),
-    gender: z.enum(["female", "male", "other"], {
-      required_error: "性別を選択してください",
+    gender: z.enum(["", "female", "male", "other"], {
+      message: "性別を選択してください",
     }),
     birthday: z
       .string({ required_error: "生年月日を入力してください" })
