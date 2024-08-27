@@ -1,10 +1,7 @@
 # Validation for Zod and pure HTML
 
-このリポジトリは Zenn の記事 **「Zod と HTML だけでバリデーションをやってみた。react-hook-form 未使用」** と連動したリポジトリです。
-
-## 📄 記事へのリンクはこちら
-
-[Zod と HTML だけでバリデーションをやってみた。react-hook-form 未使用](https://zenn.dev/cocomina/articles/validation-zod-pure-html)
+このリポジトリは Zenn の記事 **[「💎 Zod と HTML だけでバリデーションをやってみた。react-hook-form 未使用」](https://zenn.dev/cocomina/articles/validation-zod-pure-html)**
+と連動したリポジトリです。
 
 ## 🛠️ 開発環境
 
